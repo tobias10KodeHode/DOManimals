@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+#animal-container {
+    text-align: center;
+    height: 350px;
+}
+
+#generate-button {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#generate-button:hover {
+    background-color: #2980b9;
+}
